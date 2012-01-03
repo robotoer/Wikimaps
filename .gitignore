@@ -1,0 +1,4 @@
+*.class
+war/WEB-INF/classes/
+.gwt/
+

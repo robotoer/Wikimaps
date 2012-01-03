@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:wikimaps="urn:import:com.wikimaps.client">
+	<ui:style>
+		.content {
+			min-height: 100%
+		}
+	</ui:style>
+	<g:SplitLayoutPanel width="100%" styleName=".content">
+		<g:east size="400">
+			<wikimaps:Sidebar ui:field="sidebar" />
+		</g:east>
+		<g:center>
+			<wikimaps:Graph ui:field="graph" />
+		</g:center>
+	</g:SplitLayoutPanel>
+</ui:UiBinder> 
